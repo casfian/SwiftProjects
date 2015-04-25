@@ -13,6 +13,7 @@
 		0E6C61BB1AEBE9F700DAC0AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E6C61BA1AEBE9F700DAC0AB /* Images.xcassets */; };
 		0E6C61BE1AEBE9F700DAC0AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E6C61BC1AEBE9F700DAC0AB /* LaunchScreen.xib */; };
 		0E6C61CA1AEBE9F700DAC0AB /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C61C91AEBE9F700DAC0AB /* HelloWorldTests.swift */; };
+		0E6C61D41AEBECAF00DAC0AB /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C61D31AEBECAF00DAC0AB /* CustomText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0E6C61C31AEBE9F700DAC0AB /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6C61C81AEBE9F700DAC0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E6C61C91AEBE9F700DAC0AB /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
+		0E6C61D31AEBECAF00DAC0AB /* CustomText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				0E6C61B31AEBE9F700DAC0AB /* AppDelegate.swift */,
 				0E6C61B51AEBE9F700DAC0AB /* ViewController.swift */,
+				0E6C61D31AEBECAF00DAC0AB /* CustomText.swift */,
 				0E6C61B71AEBE9F700DAC0AB /* Main.storyboard */,
 				0E6C61BA1AEBE9F700DAC0AB /* Images.xcassets */,
 				0E6C61BC1AEBE9F700DAC0AB /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				0E6C61B61AEBE9F700DAC0AB /* ViewController.swift in Sources */,
 				0E6C61B41AEBE9F700DAC0AB /* AppDelegate.swift in Sources */,
+				0E6C61D41AEBECAF00DAC0AB /* CustomText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				0E6C61CF1AEBE9F700DAC0AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E6C61D01AEBE9F700DAC0AB /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				0E6C61D21AEBE9F700DAC0AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
